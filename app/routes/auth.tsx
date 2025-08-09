@@ -43,6 +43,7 @@ const Auth = () => {
                                 )}
                             </>
                         )}
+
                     </div>
                 </section>
             </div>
