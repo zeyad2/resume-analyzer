@@ -7,7 +7,6 @@ import { convertPdfToImage } from "~/lib/pdftoimg";
 import { generateUUID } from "~/lib/utils";
 import { AIResponseFormat, prepareInstructions } from "constants/index";
 
-
 const upload = () => {
   const { auth, isLoading, fs, ai, kv } = usePuterStore();
   const navigate = useNavigate();
@@ -70,11 +69,11 @@ const upload = () => {
 
     data.feedback = JSON.parse(feedbackText);
     await kv.set(`resume:${uuid}`, JSON.stringify(data));
-    setStatusText("Analysis Complete, redirecting..."
-    );
-    
-    console.log(data);
+    setStatusText("Analysis Complete, redirecting...");
 
+    console.log(data);
+    navigate(`/resume/${uuid}`);
+    
   };
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
