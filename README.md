@@ -3,7 +3,7 @@
 > **Smart resume analysis with machine precision to deliver human results**
 >
 
-**Deployed to:** https://zeyad-resume-analyzer.netlify.app/
+**Deployed to:** https://resuflow-resumeanalyzer.netlify.app
 
 [![React Router](https://img.shields.io/badge/React%20Router-7.7.1-FF6B6B?style=flat-square&logo=react-router)](https://reactrouter.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
